@@ -42,7 +42,7 @@ const Tradition = () => {
                                 </div>
                                 </Card>
                             </div>
-                            <div className="w-2/5 justify-end">
+                            <div className="w-2/5 pl-10 justify-end">
                                     <Card className="relative group overflow-hidden w-[450px] h-[400px] rounded-xl shadow-md">
                             
                                             <div className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style={{ backgroundImage: "url('/Rectangle412.png')" }}></div>

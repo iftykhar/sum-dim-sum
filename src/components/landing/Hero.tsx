@@ -57,11 +57,8 @@ const Hero = () => {
         </nav>
 
         <div className="relative z-18 text-center mt-40">
-            <div className="">
-                <h1
-                    className="text-6xl font-bold"
-                    style={{ fontFamily: '"Cinzel Decorative", cursive' }}
-                >
+            <div className="justify-center">
+                <h1 className="text-6xl font-bold" style={{ fontFamily: '"Cinzel Decorative", cursive' }}>
                     Welcome to Sum Dim Sum – Where Every Bite Tells a Story
                 </h1>
                 <div className="p-6">
