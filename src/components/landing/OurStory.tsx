@@ -17,7 +17,7 @@ const OurStory = () => {
                
                 <div className="w-3/4 relative p-20"> 
                   <div className="bg-pink-50 p-14 rounded-lg"> 
-                    <h1 className="text-5xl font-bold mb-6" style={{ fontFamily: '"Cinzel Decorative", cursive' }}>
+                    <h1 className="text-4xl font-bold mb-6" style={{ fontFamily: '"Cinzel Decorative", cursive' }}>
                       OUR STORY
                     </h1>
                     <p className="text-gray-700 mb-6" style={{ fontFamily: '"Raleway", sans-serif' }}>
