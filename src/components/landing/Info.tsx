@@ -8,7 +8,7 @@ const Info = () => {
   return (
     <div>
 
-      <section className="hero relative h-[500px] flex items-center justify-center text-white">
+      <section className="info relative h-[500px] flex items-center justify-center text-white">
 
             <Image src="/Rectangle424.png" alt="info Background" fill className="object-cover z-0  h-[900px] " priority />
             <div className="container mx-auto px-[60px]">
