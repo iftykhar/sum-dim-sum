@@ -11,7 +11,7 @@ const Topsection = () => {
   return (
     <div className='' >
         <section className='topsection bg-[#0C0C0C] p-3 text-white'>
-            <div className="container mx-auto px-[60px]">
+            <div className="container mx-auto ">
                 <div className="flex justify-between items-center w-full py-[10px]">
                     <div className="flex gap-4">
                         <div className="flex gap-2 items-center">
