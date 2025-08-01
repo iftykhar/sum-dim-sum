@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono,Cinzel_Decorative,Raleway } from "next/font/google";
 import "./globals.css";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +12,19 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const CinzelDecorative = Cinzel_Decorative({
+  subsets: ['latin'],
+  weight: ['700' ], 
+  variable: '--font-cinzel',
+});
+
+const raleway = Raleway({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'], 
+  variable: '--font-raleway',
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
