@@ -346,13 +346,13 @@ const TestimonialCarousel = () => {
   return (
     <section>
       <div className="container mx-auto">
-        {/* Heading */}
+       
         <div className="text-center pb-8">
           <h3 className="font-bold text-5xl cinzel leading-[136%]">The Talk of the Town</h3>
           <Image className="mx-auto object-cover" src="/objects.png" alt="Taste Tradition" width={117} height={48} />
         </div>
 
-        {/* Carousel */}
+      
         <div className="relative">
           <Image
             className="object-cover w-full h-[520px] aspect-auto opacity-90"
