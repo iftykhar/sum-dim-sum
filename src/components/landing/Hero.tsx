@@ -17,7 +17,7 @@ const Hero = () => {
           <nav className="hidden md:flex absolute top-0 left-0 w-full z-20 items-center justify-between mt-6 px-4 sm:px-6 lg:px-[60px]">
             <div className="flex w-full justify-between items-center">
               <div className="text-2xl font-bold">
-                <img src="/sum_logo.png" alt="sumlogo" />
+                <Image src="/sum_logo.png" alt="sumlogo" width={100} height={40} />
               </div>
               <ul className="flex space-x-8 gap-6">
                 <li><a href="#" className="hover:text-red-500 transition-colors">Home</a></li>
@@ -37,7 +37,7 @@ const Hero = () => {
           
           <nav className="md:hidden absolute top-0 left-0 w-full z-20 flex items-center justify-between px-4 mt-6">
             <div className="text-2xl font-bold">
-              <img src="/sum_logo.png" alt="sumlogo" />
+              <Image src="/sum_logo.png" alt="sumlogo" width={100} height={40} />
             </div>
              
             <div className="block md:hidden">
@@ -72,7 +72,8 @@ const Hero = () => {
 
       
           <div className="absolute bottom-0 left-0 right-0 z-20 flex justify-center md:justify-end p-4 md:p-6">
-            <img src="/hero-seal.png" alt="hero seal" className="w-24 md:w-auto" />
+            
+            <Image src="/hero-seal.png" alt="hero seal" width={100} height={100} className="w-24 md:w-auto" />
           </div>
         </div>
       </section>

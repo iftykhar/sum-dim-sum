@@ -12,14 +12,12 @@ const MobileSidebar: React.FC = () => {
 
   return (
     <>
-      {/* Hamburger Button */}
+
       <div className="lg:hidden p-4">
         <button onClick={toggleMenu}>
           <IoMdMenu size={28} />
         </button>
       </div>
-
-      {/* Sidebar Overlay */}
       <div
         className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
@@ -27,7 +25,7 @@ const MobileSidebar: React.FC = () => {
         onClick={toggleMenu}
       ></div>
 
-      {/* Sidebar Menu */}
+
       <aside
         className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transition-transform duration-300 transform ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
