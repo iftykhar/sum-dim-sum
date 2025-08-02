@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Topsection from "@/components/landing/Topsection";
 import Hero from "@/components/landing/Hero";
 import OurStory from "@/components/landing/OurStory";
