@@ -56,14 +56,14 @@ const TestimonialCarousel = () => {
       <div className="w-full">
         
         <div className="container mx-auto text-center pb-8">
-          <h3 className="font-bold text-5xl cinzel leading-[136%]"  style={{ fontFamily: '"Cinzel Decorative", cursive' }}>The Talk of the Town</h3>
+          <h3 className="text-3xl sm:text-5xl font-bold mb-6  cinzel leading-[136%]"  style={{ fontFamily: '"Cinzel Decorative", cursive' }}>The Talk of the Town</h3>
           <Image className="mx-auto object-cover" src="/objects.png" alt="Taste Tradition" width={117} height={48} />
         </div>
 
         <div className="relative">
           <Image
             className="object-cover w-full h-[520px] aspect-auto opacity-90"
-            src="/DiveSumptuous.png"
+            src="/Rectangle424.png"
             alt="banner"
             width={1440}
             height={520}
