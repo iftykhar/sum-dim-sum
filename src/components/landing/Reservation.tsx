@@ -258,7 +258,7 @@ const Reservation = () => {
 
     try {
       setLoading(true)
-      const res = await fetch("https://landingpage-backend-fovb.onrender.com/api/v1/reservation", {
+      const res = await fetch("${process.env.NEXT_PUBLIC_API_URL}/reservation", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
