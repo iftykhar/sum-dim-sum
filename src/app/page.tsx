@@ -8,6 +8,7 @@ import Town from "@/components/landing/Town";
 import Comment from "@/components/landing/Comment";
 import Testimonial from "@/components/landing/TestimonialCarousel";
 import Reserve from "@/components/landing/Reservation";
+import Contact from "@/components/landing/Contact";
 import Foot from "@/components/landing/Footer";
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       {/* <Comment></Comment> */}
       <Testimonial></Testimonial>
       <Reserve></Reserve>
+      <Contact></Contact>
       <Foot></Foot>
     </div>
   );

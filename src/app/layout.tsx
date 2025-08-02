@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Cinzel_Decorative,Raleway } from "next/font/google";
+import { Geist, Geist_Mono,Cinzel_Decorative,Raleway,Passions_Conflict } from "next/font/google";
 import "./globals.css";
 
 
@@ -24,6 +24,14 @@ const raleway = Raleway({
   weight: ['400', '500', '700'], 
   variable: '--font-raleway',
 });
+
+const passionsConflict =Passions_Conflict({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-passions-conflict',
+});
+
+
 
 
 export const metadata: Metadata = {

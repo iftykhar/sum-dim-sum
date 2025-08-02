@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 import { BsEmojiSmile } from "react-icons/bs";
 import { PiCallBellLight } from "react-icons/pi";
 import { IoRibbonOutline } from "react-icons/io5";
@@ -16,7 +17,7 @@ const OurStory = () => {
           <div className="w-full flex gap-8">
                
                 <div className="w-3/4 relative p-20"> 
-                  <div className="bg-pink-50 p-14 rounded-lg"> 
+                  <div className="bg-pink-50 p-14 rounded-lg relative"> 
                     <h1 className="text-4xl font-bold mb-6" style={{ fontFamily: '"Cinzel Decorative", cursive' }}>
                       OUR STORY
                     </h1>
@@ -26,6 +27,10 @@ const OurStory = () => {
                     <button className="bg-red-600 text-white px-6 py-2 rounded-md hover:bg-red-700 transition-colors flex items-center gap-3">
                       Learn More <FaArrowRightLong />
                     </button>
+
+                    <div className="absolute right-20 bottom-10 opacity-10 pointer-events-none">
+                                <Image src="/tree-branch.png"  alt="Sakura tree"  width={300}  height={300} />
+                              </div>
                   </div>
 
                  
