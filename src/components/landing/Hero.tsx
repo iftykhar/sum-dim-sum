@@ -127,7 +127,11 @@ const Hero = () => {
               <img src="/sum_logo.png" alt="sumlogo" />
             </div>
             {/* You can plug in a real mobile menu toggle here */}
-            <button className="text-white border border-white px-4 py-2 rounded">Menu</button>
+            {/* <button className="text-white border border-white px-4 py-2 rounded">Menu</button> */}
+            <div className="block md:hidden">
+                <MobileSidebar />
+            </div>
+
           </nav>
 
           {/* Hero Content */}
