@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from "next/image";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaArrowRightLong } from "react-icons/fa6";
+// import { FaArrowRightLong } from "react-icons/fa6";
 
 const Contact = () => {
 
@@ -67,7 +67,7 @@ const Contact = () => {
                   <input type="tel"  name='phoneNumber' value={formData.phoneNumber} onChange={handleChange}  placeholder="Phone Number" className="w-1/2 p-3 bg-transparent bg-opacity-30 border-b placeholder-white text-white focus:outline-none focus:ring-2 focus:ring-white"  />
                 </div>
                 <div>
-                  <textarea rows="4"  name='message' value={formData.message} onChange={handleChange}  placeholder="Type your message here" className="w-full p-3 bg-transparent bg-opacity-30 border-b placeholder-white text-white focus:outline-none focus:ring-2 focus:ring-white" ></textarea>
+                  <textarea rows={4}  name='message' value={formData.message} onChange={handleChange}  placeholder="Type your message here" className="w-full p-3 bg-transparent bg-opacity-30 border-b placeholder-white text-white focus:outline-none focus:ring-2 focus:ring-white" ></textarea>
                 </div>
                 <div className="flex justify-end items-center">
                                     <button type='submit' className="w-1/2 items-center text-center bg-red-700 text-white py-3 px-6 rounded-md font-semibold hover:bg-red-800 transition-colors duration-300 shadow-lg">
