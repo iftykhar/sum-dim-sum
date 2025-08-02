@@ -18,10 +18,7 @@ const OurStory = () => {
                 <Image src="/tree-branch.png" alt="Sakura tree" width={200} height={200} />
               </div>
 
-              <h1
-                className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 relative z-10"
-                style={{ fontFamily: '"Cinzel Decorative", cursive' }}
-              >
+              <h1  className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 relative z-10" style={{ fontFamily: '"Cinzel Decorative", cursive' }} >
                 OUR STORY
               </h1>
               <p

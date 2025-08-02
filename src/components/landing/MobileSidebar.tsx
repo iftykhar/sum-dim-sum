@@ -18,19 +18,10 @@ const MobileSidebar: React.FC = () => {
           <IoMdMenu size={28} />
         </button>
       </div>
-      <div
-        className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${
-          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-        }`}
-        onClick={toggleMenu}
-      ></div>
+      <div className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${ isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`} onClick={toggleMenu}> </div>
 
 
-      <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transition-transform duration-300 transform ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
-      >
+      <aside className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : '-translate-x-full' }`}>
         <div className="flex items-center justify-between p-4 border-b">
           <h2 className="text-xl font-semibold">Menu</h2>
           <button onClick={toggleMenu}>
