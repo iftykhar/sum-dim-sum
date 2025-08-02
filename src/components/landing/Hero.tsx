@@ -14,12 +14,13 @@ const Hero = () => {
           <div className="absolute inset-0 bg-black/50 z-10" />
 
            
-          <nav className="hidden md:flex absolute top-0 left-0 w-full z-20 items-center justify-between mt-6 px-4 sm:px-6 lg:px-[60px]">
+          
+            <nav className="hidden lg:flex absolute top-0 left-0 w-full z-20 items-center justify-between mt-6 px-4 sm:px-6 lg:px-[60px]">
             <div className="flex w-full justify-between items-center">
-              <div className="text-2xl font-bold">
+                <div className="text-2xl font-bold">
                 <Image src="/sum_logo.png" alt="sumlogo" width={100} height={40} />
-              </div>
-              <ul className="flex space-x-8 gap-6">
+                </div>
+                <ul className="flex space-x-8 gap-6">
                 <li><a href="#" className="hover:text-red-500 transition-colors">Home</a></li>
                 <li><a href="#" className="hover:text-red-500 transition-colors">About</a></li>
                 <li><a href="#" className="hover:text-red-500 transition-colors">Menu & Locations</a></li>
@@ -27,24 +28,23 @@ const Hero = () => {
                 <li><a href="#" className="hover:text-red-500 transition-colors">Merchandise</a></li>
                 <li><a href="#" className="hover:text-red-500 transition-colors">Career</a></li>
                 <li><a href="#" className="hover:text-red-500 transition-colors">Contact</a></li>
-              </ul>
-              <Button variant="outline" className="border-white text-white bg-black hover:bg-black hover:text-white hover:border-white">
+                </ul>
+                <Button variant="outline" className="border-white text-white bg-black hover:bg-black hover:text-white hover:border-white">
                 Book A Table
-              </Button>
+                </Button>
             </div>
-          </nav>
+            </nav>
 
-          
-          <nav className="md:hidden absolute top-0 left-0 w-full z-20 flex items-center justify-between px-4 mt-6">
+            <nav className="flex lg:hidden absolute top-0 left-0 w-full z-20 items-center justify-between px-4 mt-6">
             <div className="text-2xl font-bold">
-              <Image src="/sum_logo.png" alt="sumlogo" width={100} height={40} />
+                <Image src="/sum_logo.png" alt="sumlogo" width={100} height={40} />
             </div>
-             
-            <div className="block md:hidden">
+                
+            <div className="block">
                 <MobileSidebar />
             </div>
-
-          </nav>
+            </nav>
+     
  
           <div className="relative z-20 mt-40 text-center flex flex-col items-center justify-center px-4">
             <h1
