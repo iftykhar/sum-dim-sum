@@ -7,7 +7,7 @@ import MobileSidebar from './MobileSidebar';
 const Hero = () => {
   return (
     <div>
-      <section className="hero relative h-[900px] flex items-center justify-center text-white">
+      <section  className="hero relative h-[900px] flex items-center justify-center text-white">
         <Image src="/heroimg1.png" alt="Hero Background" fill className="object-cover z-0 h-[900px]" priority />
         <div className="container mx-auto px-4 sm:px-6 lg:px-[60px]">
 
